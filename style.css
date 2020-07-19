@@ -40,6 +40,12 @@ nav a {
     color: white;
     text-decoration: none;
 }
+.lineas {
+    background-color: transparent;
+    border-width: 0;
+    padding: 0;
+    width: 30px;
+}
 .link {
     background-color: #56c9d6;
     padding: 13px;
@@ -125,3 +131,6 @@ footer  {
 footer p {
     margin: 0;
 }
+@media (min-width: 1024px) {
+    .lineas {
+        display: none;

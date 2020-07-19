@@ -134,3 +134,48 @@ footer p {
 @media (min-width: 1024px) {
     .lineas {
         display: none;
+  @media (max-width: 1023px){
+    h1 {
+       font-size: 20pt; 
+    }
+    nav ul li {
+        display: none;
+    }
+    header img {
+        height: 134vh;
+    }
+    section {
+        padding: 36px;
+    }
+    .medio article {
+        width: 45%;
+    }
+    .medio article .mid {
+        margin-bottom: 34px ;
+    }
+    .medio article h2 {
+        font-size: 13pt;
+        font-weight: bold;
+    }
+    .medio article p {
+        font-size: 10pt;
+        line-height: 1,6pt;
+    }
+    section, .izq {
+        flex-wrap: wrap;
+    }
+    .izq, .derecha, 
+    .abajoizq, .abajodere {
+        flex-basis: 100%;
+    }
+    .izq div:last-of-type {
+        margin-right: 0;
+    }
+    .abajoizq {
+        padding-right: 0;
+    }
+    .izq article img {
+        width: 69px;
+        height: 69px;
+     }
+}

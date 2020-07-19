@@ -1,0 +1,121 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+}
+img {
+    width: 100%;
+}
+nav {
+    background-color: #180e0b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 34px;
+    padding-right: 34px;
+    color: white;
+    height: 89px;
+}
+h1, ul {
+    margin: 0;
+}
+h1 {
+    font-size: 34px;
+
+}
+h2 {
+    font-weight: bold;
+    font-size: 34px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.nav ul li + li {
+    margin-left: 21px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.link {
+    background-color: #56c9d6;
+    padding: 13px;
+    border-radius: 5px;
+}
+header img {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+section {
+    padding: 144px 89px;
+    display: flex;
+}
+.medio {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.medio article {
+    width: 345px;
+} 
+.centro {
+    display: flex;
+    background-color: #180e0b;
+    color: #b4654d;
+}
+.izq .derecha {
+    flex-basis: 50%;
+}
+.izq {
+    display: flex;
+    padding-right: 34px;
+}
+.izq article {
+    display: flex;
+    margin-top: 21px;
+}
+.izq article img {
+    width: 89px;
+    height: 89px;
+}
+p {
+    line-height: 1,61;
+    font-size: 18px;
+}
+.centro .izq p {
+    margin-left: 13px;
+}
+.izq div:last-of-type {
+    margin-left: 34px;
+}
+.abajo {
+    background-color: #080403;
+    color: #b4654d; 
+}
+.abajoizq {
+    flex-basis: 75%;
+    padding-right: 89px;
+}
+.abajodere {
+    flex-basis: 25%;
+}
+.abajodere ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.abajodere ul li + li {
+    margin-top: 21px;
+}
+.abajodere a {
+    text-decoration: underline;
+    color: inherit;
+}
+.footer p {
+    background-color: #030201;
+    text-align: center;
+    padding: 34px 89px;
+    color: #b4654d;
+}

@@ -95,6 +95,9 @@ p {
     background-color: #080403;
     color: #b4654d; 
 }
+.abajo .abajoizq a {
+    color: #cf816a;
+}
 .abajoizq {
     flex-basis: 75%;
     padding-right: 89px;
@@ -113,9 +116,12 @@ p {
     text-decoration: underline;
     color: inherit;
 }
-.footer p {
+footer  {
     background-color: #030201;
     text-align: center;
     padding: 34px 89px;
     color: #b4654d;
+}
+footer p {
+    margin: 0;
 }
